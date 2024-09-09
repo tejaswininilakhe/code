@@ -1,0 +1,10 @@
+main
+	USART_Init
+	vInitTimer_1
+	USART_SendByte
+	vClearBuffer
+	vSendPacket
+		USART_SendByte
+	__CC2DW
+vSerialRx_ISR
+vTimer1_ISR

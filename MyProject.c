@@ -1,4 +1,8 @@
-
+/********************************************************************************/
+Code written by Tejaswini.
+ Code to write Modbus Specific Loacations.
+ Code to read Specific Modbus Location.
+ /*******************************************************************************/
 #define START_TIMER_1   CS10_bit = 0;CS11_bit = 1;CS12_bit = 0;
 #define STOP_TIMER_1   CS10_bit = 0;CS11_bit = 0;CS12_bit = 0;
 #define CLEAR_TIMER_1  TCNT1H=0;TCNT1L=0;

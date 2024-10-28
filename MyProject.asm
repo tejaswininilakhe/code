@@ -210,6 +210,7 @@ L_vSerialRx_ISR10:
 	ADC        R31, R18
 	ST         Z, R19
 ; dmxByte end address is: 19 (R19)
+/************************************************************************************/
 ;MyProject.c,257 :: 		ucPacketIndex++;
 	LDS        R16, _ucPacketIndex+0
 	SUBI       R16, 255
